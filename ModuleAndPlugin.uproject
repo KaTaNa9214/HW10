@@ -3,13 +3,19 @@
 	"EngineAssociation": "5.5",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "ModuleAndPlugin",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
+	"Modules":
+[
+    {
+        "Name": "ModuleAndPlugin",
+        "Type": "Runtime",
+        "LoadingPhase": "Default"
+    },
+    {
+        "Name": "Test",
+        "Type": "Runtime",
+        "LoadingPhase": "PreDefault"
+    }
+],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
