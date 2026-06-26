@@ -1,0 +1,16 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0",
+    "FriendlyName": "Temporary",
+    "Description": "Temporary Plugin",
+    "Category": "Other",
+    "Modules":
+    [
+        {
+            "Name": "Temporary",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+        }
+    ]
+}
